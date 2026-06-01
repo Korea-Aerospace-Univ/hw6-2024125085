@@ -21,7 +21,7 @@ int main()
         *r = arr01[r-arrcalc] + arr02[arrcalc+N-r-1];   // 주소값을 이용한 연산
     }       // r=arrcalc이기때문에(같은주소값)이를통해arr01,arr02의 합을구함
     for(int *r=arrcalc; r<arrcalc+N; r++){ // 연산된 arrcalc내의값 출력
-        printf("%d ", *r);
+        printf(" %d", *r);
     }
     
     return 0;
